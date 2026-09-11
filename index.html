@@ -1,1 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soporte Técnico de Computadoras — Reparación, Armado y Mantenimiento</title>
+<meta name="description" content="Reparación, mantenimiento, armado de PC a medida y soporte de software. Diagnóstico gratis, garantía por escrito y respuesta en 48hs.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+<a href="#main" class="skip-link">Saltar al contenido principal</a>
+
+<!-- ======================= HEADER ======================= -->
+<header class="header">
+  <div class="container header__inner">
+    <a href="#" class="logo">Soporte<span class="logo__accent">Técnico</span></a>
+
+    <nav class="nav" id="nav" aria-label="Navegación principal">
+      <a href="#servicios">Servicios</a>
+      <a href="#confianza">Por qué nosotros</a>
+      <a href="#testimonios">Testimonios</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <a href="#contacto" class="btn btn--small btn--primary">Pedí tu diagnóstico</a>
+
+    <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ======================= HERO ======================= -->
+  <section class="hero">
+    <div class="hero__blob hero__blob--1" aria-hidden="true"></div>
+    <div class="hero__blob hero__blob--2" aria-hidden="true"></div>
+    <div class="hero__blob hero__blob--3" aria-hidden="true"></div>
+
+    <div class="container hero__inner">
+      <div class="hero__content reveal">
+        <span class="chip chip--yellow">⚡ Diagnóstico gratis en el día</span>
+        <h1 class="hero__title">Tu computadora, <span class="hero__title--gradient">funcionando como el primer día</span></h1>
+        <p class="hero__subtitle">
+          Reparamos, armamos y mantenemos tu equipo con diagnóstico claro,
+          tiempos cortos y garantía por escrito. Sin tecnicismos, sin sorpresas en el precio.
+        </p>
+        <div class="hero__actions">
+          <a href="#contacto" class="btn btn--primary btn--glow">Pedir diagnóstico gratis</a>
+          <a href="#servicios" class="btn btn--ghost">Ver servicios</a>
+        </div>
+
+        <div class="hero__badges">
+          <span class="badge"><strong>+1.200</strong> equipos reparados</span>
+          <span class="badge"><strong>48hs</strong> tiempo promedio</span>
+          <span class="badge"><strong>100%</strong> garantía escrita</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= FRANJA DE CONFIANZA ======================= -->
+  <section class="trustbar" aria-label="Números que nos respaldan">
+    <div class="container trustbar__inner">
+      <div class="trustbar__item reveal">
+        <span class="trustbar__number trustbar__number--teal">+1.200</span>
+        <span class="trustbar__label">equipos reparados</span>
+      </div>
+      <div class="trustbar__item reveal">
+        <span class="trustbar__number trustbar__number--coral">98%</span>
+        <span class="trustbar__label">clientes satisfechos</span>
+      </div>
+      <div class="trustbar__item reveal">
+        <span class="trustbar__number trustbar__number--gold">48hs</span>
+        <span class="trustbar__label">tiempo de respuesta</span>
+      </div>
+      <div class="trustbar__item reveal">
+        <span class="trustbar__number trustbar__number--teal">8 años</span>
+        <span class="trustbar__label">de experiencia</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= SERVICIOS ======================= -->
+  <section class="services" id="servicios">
+    <div class="container">
+
+      <p class="eyebrow">✦ Así te ayudamos</p>
+      <h2 class="section__title">Sea cual sea el problema, <span class="text-gradient">tenemos una solución clara</span></h2>
+
+      <div class="services__grid">
+
+        <article class="service-card service-card--teal reveal">
+          <span class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+            </svg>
+          </span>
+          <h3>Diagnóstico</h3>
+          <p>Revisamos hardware y software para encontrar la causa real del problema antes de tocar nada. Te decimos exactamente qué pasa y cuánto sale arreglarlo.</p>
+          <span class="service-card__tag">Sin cargo</span>
+        </article>
+
+        <article class="service-card service-card--coral reveal">
+          <span class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v0a.64.64 0 01-.657.643 48.39 48.39 0 01-4.163-.3c.186 1.613.293 3.25.315 4.907a.656.656 0 01-.658.663v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 00-1.003-.349c-1.036 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401v0c.31 0 .557.262.534.571a48.774 48.774 0 01-.595 4.845.75.75 0 00.751.807H21a.75.75 0 00.75-.75c0-.395-.023-.784-.068-1.166v-.021a.978.978 0 00-.98-.86h-.026a.977.977 0 00-.98.86 1.647 1.647 0 01-.349 1.003c-.221.29-.349.634-.349 1.003 0 1.036 1.007 1.875 2.25 1.875" />
+            </svg>
+          </span>
+          <h3>Mantenimiento y reparación</h3>
+          <p>Limpieza interna, cambio de pasta térmica y reparación de la pieza que falle, con repuestos garantizados. Ideal para que tu equipo no llegue a apagarse solo.</p>
+          <span class="service-card__tag">Desde $15.000</span>
+        </article>
+
+        <article class="service-card service-card--gold reveal">
+          <span class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75a4.5 4.5 0 01-4.884 4.484c-1.076-.091-2.264.071-2.95.904l-7.152 8.684a2.548 2.548 0 11-3.586-3.586l8.684-7.152c.833-.686.995-1.874.904-2.95a4.5 4.5 0 016.336-4.486l-3.276 3.276a3.004 3.004 0 002.25 2.25l3.276-3.276c.256.565.398 1.192.398 1.852z" />
+            </svg>
+          </span>
+          <h3>Armado de PC a medida</h3>
+          <p>Elegimos los componentes según tu presupuesto y uso real —oficina, diseño o gaming— y la armamos, probamos y entregamos lista para usar.</p>
+          <span class="service-card__tag">Asesoramiento incluido</span>
+        </article>
+
+        <article class="service-card service-card--teal reveal">
+          <span class="service-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085z" />
+            </svg>
+          </span>
+          <h3>Instalación y soporte de software</h3>
+          <p>Sistema operativo, drivers, programas de trabajo y eliminación de virus. Si anda lenta o se llena de ventanas, la dejamos limpia y a salvo tus archivos.</p>
+          <span class="service-card__tag">Entrega en 24hs</span>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= POR QUÉ ELEGIRNOS ======================= -->
+  <section class="why" id="confianza">
+    <div class="container">
+      <p class="eyebrow">✦ Por qué elegirnos</p>
+      <h2 class="section__title">Reparamos con transparencia, <span class="text-gradient">de principio a fin</span></h2>
+
+      <div class="why__grid">
+        <div class="why__card reveal">
+          <span class="why__icon why__icon--teal" aria-hidden="true">🛠️</span>
+          <h3>Técnicos certificados</h3>
+          <p>Más de 8 años reparando todo tipo de marcas y modelos.</p>
+        </div>
+        <div class="why__card reveal">
+          <span class="why__icon why__icon--coral" aria-hidden="true">📝</span>
+          <h3>Garantía por escrito</h3>
+          <p>Toda reparación queda respaldada, sin letra chica.</p>
+        </div>
+        <div class="why__card reveal">
+          <span class="why__icon why__icon--gold" aria-hidden="true">⏱️</span>
+          <h3>Tiempos cortos</h3>
+          <p>La mayoría de los casos se resuelven en 24 a 48 horas.</p>
+        </div>
+        <div class="why__card reveal">
+          <span class="why__icon why__icon--teal" aria-hidden="true">💬</span>
+          <h3>Precio claro desde el inicio</h3>
+          <p>Presupuesto antes de tocar tu equipo. Vos decidís.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= TESTIMONIOS ======================= -->
+  <section class="testimonials" id="testimonios" aria-label="Testimonios de clientes">
+    <div class="container">
+      <p class="eyebrow eyebrow--light">✦ Testimonios</p>
+      <h2 class="section__title section__title--light">Lo que dicen nuestros clientes</h2>
+
+      <div class="testimonials__grid">
+        <blockquote class="testimonial-card reveal">
+          <p>"Llevé mi computadora pensando que había perdido todos mis archivos del trabajo. Me explicaron todo en palabras simples y en dos días la tenía de vuelta funcionando perfecto."</p>
+          <footer><strong>Marisa T.</strong> · Clienta particular</footer>
+        </blockquote>
+        <blockquote class="testimonial-card reveal">
+          <p>"Somos una oficina de 6 personas y desde que hacemos el mantenimiento preventivo con ellos, no tuvimos ni una falla grave en el último año."</p>
+          <footer><strong>Rodrigo P.</strong> · Estudio contable</footer>
+        </blockquote>
+        <blockquote class="testimonial-card reveal">
+          <p>"Necesitaba una PC nueva para trabajar con diseño y me armaron una a medida, mejor de lo que hubiera elegido yo sola y por menos plata que una de marca."</p>
+          <footer><strong>Elena G.</strong> · Diseñadora freelance</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================= CONTACTO ======================= -->
+  <section class="contact" id="contacto">
+    <div class="contact__blob" aria-hidden="true"></div>
+    <div class="container contact__inner">
+
+      <div class="contact__info reveal">
+        <p class="eyebrow eyebrow--light">✦ Contacto</p>
+        <h2 class="section__title section__title--light">Contanos qué le pasa a tu equipo</h2>
+        <p class="contact__text">
+          Completá el formulario con el problema que tenés y te respondemos con
+          un diagnóstico, sin costo y sin compromiso.
+        </p>
+
+        <ul class="contact__list">
+          <li>
+            <span class="contact__icon" aria-hidden="true">📞</span>
+            <span>Te respondemos por teléfono o WhatsApp</span>
+          </li>
+          <li>
+            <span class="contact__icon" aria-hidden="true">✉️</span>
+            <span>O escribinos a soporte@tunegocio.com</span>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <div class="field">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo" autocomplete="name">
+          <span class="field__error" data-error-for="nombre" role="alert"></span>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" required placeholder="11 1234 5678" autocomplete="tel">
+            <span class="field__error" data-error-for="telefono" role="alert"></span>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" autocomplete="email">
+            <span class="field__error" data-error-for="email" role="alert"></span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="servicio">¿Qué necesitás?</label>
+          <select id="servicio" name="servicio">
+            <option value="Diagnóstico">Diagnóstico</option>
+            <option value="Mantenimiento y reparación">Mantenimiento y reparación</option>
+            <option value="Armado de PC a medida">Armado de PC a medida</option>
+            <option value="Instalación y soporte de software">Instalación y soporte de software</option>
+            <option value="No estoy seguro">No estoy seguro</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="problema">Contanos qué le pasa a tu equipo</label>
+          <textarea id="problema" name="problema" rows="4" required placeholder="Ej: la computadora no prende desde ayer, o anda muy lenta..."></textarea>
+          <span class="field__error" data-error-for="problema" role="alert"></span>
+        </div>
+
+        <button type="submit" class="btn btn--whatsapp btn--full btn--glow">
+          <svg class="btn__icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.004 2C6.486 2 2 6.486 2 12.004c0 1.86.505 3.678 1.463 5.263L2 22l4.865-1.437a9.96 9.96 0 004.139.899h.004c5.518 0 10.004-4.486 10.004-10.004C21.012 6.486 16.526 2 12.004 2zm0 18.09h-.003a8.09 8.09 0 01-3.99-1.05l-.286-.169-3.246.958.976-3.288-.187-.293a8.087 8.087 0 01-1.223-4.244c0-4.469 3.634-8.104 8.107-8.104 2.166 0 4.198.844 5.729 2.375a8.05 8.05 0 012.375 5.732c0 4.469-3.634 8.083-8.252 8.083z"/></svg>
+          Pedir diagnóstico por WhatsApp
+        </button>
+        <p class="contact-form__note" id="formNote">Sin costo y sin compromiso. Te respondemos en el día.</p>
+      </form>
+
+    </div>
+  </section>
+
+</main>
+
+<!-- ======================= FOOTER ======================= -->
+<footer class="footer">
+  <div class="container">
+    <p>© <span id="year"></span> Soporte Técnico. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<!-- ======================= BOTÓN FLOTANTE WHATSAPP ======================= -->
+<a
+  href="https://wa.me/5491163367303?text=Hola%2C%20quiero%20consultar%20por%20un%20servicio%20t%C3%A9cnico"
+  class="whatsapp-fab"
+  target="_blank"
+  rel="noopener"
+  aria-label="Escribinos por WhatsApp"
+>
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12.004 2C6.486 2 2 6.486 2 12.004c0 1.86.505 3.678 1.463 5.263L2 22l4.865-1.437a9.96 9.96 0 004.139.899h.004c5.518 0 10.004-4.486 10.004-10.004C21.012 6.486 16.526 2 12.004 2zm0 18.09h-.003a8.09 8.09 0 01-3.99-1.05l-.286-.169-3.246.958.976-3.288-.187-.293a8.087 8.087 0 01-1.223-4.244c0-4.469 3.634-8.104 8.107-8.104 2.166 0 4.198.844 5.729 2.375a8.05 8.05 0 012.375 5.732c0 4.469-3.634 8.083-8.252 8.083z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
